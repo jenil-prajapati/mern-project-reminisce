@@ -1,4 +1,4 @@
-# Reminisce - 
+# Reminisce - Your Personal Time Machine
 
 ![image](https://github.com/user-attachments/assets/24bb3e7d-8e3a-420b-8351-e5afd530e267)
 
