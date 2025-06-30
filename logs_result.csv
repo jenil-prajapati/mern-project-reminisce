@@ -1,0 +1,583 @@
+"TimeUTC","timestampInMs","requestPath","requestMethod","requestQueryString","responseStatusCode","requestId","requestUserAgent","level","environment","branch","vercelCache","type","function","host","deploymentDomain","deploymentId","durationMs","region","maxMemoryUsed","memorySize","message","projectId","traceId","sessionId","invocationId","instanceId"
+"2025-06-30 07:49:56",1751269796505,"mern-project-reminisce.vercel.app/api/posts","GET","",-1,"5j9cs-1751269796264-62b568d4fa84","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZX0TF3MBF0246X61BFBSPS",""
+"2025-06-30 07:49:56",1751269796323,"mern-project-reminisce.vercel.app/api/posts","GET","",500,"5j9cs-1751269796264-62b568d4fa84","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",165,"iad1",89,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZX0TF3MBF0246X61BFBSPS",""
+"2025-06-30 07:49:55",1751269795001,"mern-project-reminisce.vercel.app/favicon.ico","GET","",-1,"p59t5-1751269794788-b8e6e3923e0f","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZX0S065ZZCSZ3JXPP1EGQ2",""
+"2025-06-30 07:49:54",1751269794822,"mern-project-reminisce.vercel.app/favicon.ico","GET","",500,"p59t5-1751269794788-b8e6e3923e0f","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",164,"iad1",89,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZX0S065ZZCSZ3JXPP1EGQ2",""
+"2025-06-30 07:49:54",1751269794130,"mern-project-reminisce.vercel.app/api/posts","GET","",-1,"8dgmx-1751269793912-5239a1388f9f","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZX0R4ZVB2Y9KT5WBBFHHKZ",""
+"2025-06-30 07:49:53",1751269793951,"mern-project-reminisce.vercel.app/api/posts","GET","",500,"8dgmx-1751269793912-5239a1388f9f","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",160,"iad1",88,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZX0R4ZVB2Y9KT5WBBFHHKZ",""
+"2025-06-30 07:48:14",1751269694274,"mern-project-reminisce.vercel.app/favicon.ico","GET","",-1,"l2k92-1751269694046-bbf31946079b","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWXPM8NRX3TRNJK0NVXB7J",""
+"2025-06-30 07:48:14",1751269694088,"mern-project-reminisce.vercel.app/favicon.ico","GET","",500,"l2k92-1751269694046-bbf31946079b","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",161,"iad1",88,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWXPM8NRX3TRNJK0NVXB7J",""
+"2025-06-30 07:48:13",1751269693071,"mern-project-reminisce.vercel.app/api/health","GET","",-1,"l8cxw-1751269692834-863c99c1d317","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWXNEV6WWZV4AXW1TS8BQB",""
+"2025-06-30 07:48:12",1751269692891,"mern-project-reminisce.vercel.app/api/health","GET","",500,"l8cxw-1751269692834-863c99c1d317","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",165,"iad1",88,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWXNEV6WWZV4AXW1TS8BQB",""
+"2025-06-30 07:48:02",1751269682259,"mern-project-reminisce.vercel.app/favicon.ico","GET","",-1,"kq7d9-1751269682032-913551c588c1","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWXAWSP2A929T8WN3DQCBE",""
+"2025-06-30 07:48:02",1751269682073,"mern-project-reminisce.vercel.app/favicon.ico","GET","",500,"kq7d9-1751269682032-913551c588c1","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",168,"iad1",88,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWXAWSP2A929T8WN3DQCBE",""
+"2025-06-30 07:48:01",1751269681009,"mern-project-reminisce.vercel.app/api","GET","",-1,"9qjwx-1751269680782-655f14e89ea4","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWX9NS6MY5ERWQP2MNFN2D",""
+"2025-06-30 07:48:00",1751269680825,"mern-project-reminisce.vercel.app/api","GET","",500,"9qjwx-1751269680782-655f14e89ea4","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",164,"iad1",89,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWX9NS6MY5ERWQP2MNFN2D",""
+"2025-06-30 07:46:20",1751269580359,"mern-project-reminisce.vercel.app/favicon.ico","GET","",-1,"hjnvb-1751269580131-0afa76e4f2a9","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWT7CC92RXG4050VSFRR3Y",""
+"2025-06-30 07:46:20",1751269580172,"mern-project-reminisce.vercel.app/favicon.ico","GET","",500,"hjnvb-1751269580131-0afa76e4f2a9","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",164,"iad1",89,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWT7CC92RXG4050VSFRR3Y",""
+"2025-06-30 07:46:19",1751269579159,"mern-project-reminisce.vercel.app/api/test","GET","",-1,"mprk4-1751269578931-b6040ad8b9f8","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWT6709AKNTHYAEXMS706A",""
+"2025-06-30 07:46:18",1751269578976,"mern-project-reminisce.vercel.app/api/test","GET","",500,"mprk4-1751269578931-b6040ad8b9f8","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",169,"iad1",88,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWT6709AKNTHYAEXMS706A",""
+"2025-06-30 07:45:39",1751269539028,"mern-project-reminisce.vercel.app/favicon.ico","GET","",-1,"kwqld-1751269538807-934256557b20","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWRZ0YF59RT978X2QESP9V",""
+"2025-06-30 07:45:38",1751269538846,"mern-project-reminisce.vercel.app/favicon.ico","GET","",500,"kwqld-1751269538807-934256557b20","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",165,"iad1",88,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWRZ0YF59RT978X2QESP9V",""
+"2025-06-30 07:45:37",1751269537795,"mern-project-reminisce.vercel.app/","GET","",-1,"wq7t7-1751269537558-89fa1e8b0604","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWRXSY0PZQ64BRKSS151BM",""
+"2025-06-30 07:45:37",1751269537598,"mern-project-reminisce.vercel.app/","GET","",500,"wq7t7-1751269537558-89fa1e8b0604","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",174,"iad1",89,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWRXSY0PZQ64BRKSS151BM",""
+"2025-06-30 07:45:28",1751269528257,"mern-project-reminisce.vercel.app/favicon.ico","GET","",-1,"n6z96-1751269528035-17399bbe996a","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWRMG6WJY4F0192SN2JT8T",""
+"2025-06-30 07:45:28",1751269528070,"mern-project-reminisce.vercel.app/favicon.ico","GET","",500,"n6z96-1751269528035-17399bbe996a","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",172,"iad1",89,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWRMG6WJY4F0192SN2JT8T",""
+"2025-06-30 07:45:26",1751269526994,"mern-project-reminisce.vercel.app/","GET","",-1,"hrdbz-1751269526751-92d77acd9144","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWRK8R4TXHAWGNZM1QGDK6",""
+"2025-06-30 07:45:26",1751269526808,"mern-project-reminisce.vercel.app/","GET","",500,"hrdbz-1751269526751-92d77acd9144","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce.vercel.app","mern-project-reminisce.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",165,"iad1",88,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWRK8R4TXHAWGNZM1QGDK6",""
+"2025-06-30 07:42:27",1751269347232,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",-1,"28ntg-1751269347005-c7a15174524f","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWK3Q51233KPGTWG7SFR3F",""
+"2025-06-30 07:42:27",1751269347045,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",500,"28ntg-1751269347005-c7a15174524f","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",163,"iad1",89,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWK3Q51233KPGTWG7SFR3F",""
+"2025-06-30 07:42:26",1751269346908,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.png","GET","",-1,"27lnz-1751269346687-996eb2df5fb0","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWK3D6TZXVJ8HY4921ZYGR",""
+"2025-06-30 07:42:26",1751269346726,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.png","GET","",500,"27lnz-1751269346687-996eb2df5fb0","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",158,"iad1",88,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWK3D6TZXVJ8HY4921ZYGR",""
+"2025-06-30 07:42:25",1751269345936,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",-1,"mw2bt-1751269345722-e824be83ea73","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWK2EYBSCFP8KDGNYBXB5C",""
+"2025-06-30 07:42:25",1751269345758,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",500,"mw2bt-1751269345722-e824be83ea73","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",157,"iad1",88,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWK2EYBSCFP8KDGNYBXB5C",""
+"2025-06-30 07:42:24",1751269344594,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.png","GET","",-1,"9qjwx-1751269344379-5d34539228e0","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWK14XV9E5PZ012T40TAZM",""
+"2025-06-30 07:42:24",1751269344413,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.png","GET","",500,"9qjwx-1751269344379-5d34539228e0","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",158,"iad1",88,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWK14XV9E5PZ012T40TAZM",""
+"2025-06-30 07:42:23",1751269343319,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.png","GET","",-1,"9cqd9-1751269343101-8162d7eb1af2","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJZX36BB2QEVYWTX61S1H",""
+"2025-06-30 07:42:23",1751269343139,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.png","GET","",500,"9cqd9-1751269343101-8162d7eb1af2","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",159,"iad1",89,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJZX36BB2QEVYWTX61S1H",""
+"2025-06-30 07:42:23",1751269343061,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.ico","GET","",-1,"fsv29-1751269342833-0d6912991fd5","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJZMSQZRVX4BEW7DT57A9",""
+"2025-06-30 07:42:22",1751269342873,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.ico","GET","",500,"fsv29-1751269342833-0d6912991fd5","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",164,"iad1",89,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJZMSQZRVX4BEW7DT57A9",""
+"2025-06-30 07:42:20",1751269340714,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.ico","GET","",-1,"689sb-1751269340481-840d7167fc90","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJXBAFDMV9RKHHHQQKX8B",""
+"2025-06-30 07:42:20",1751269340522,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.ico","GET","",500,"689sb-1751269340481-840d7167fc90","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",171,"iad1",88,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJXBAFDMV9RKHHHQQKX8B",""
+"2025-06-30 07:42:19",1751269339436,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.ico","GET","",-1,"n6z96-1751269339213-1d7c78799792","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJW3N84Q78E9GCFNY5N37",""
+"2025-06-30 07:42:19",1751269339253,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.ico","GET","",500,"n6z96-1751269339213-1d7c78799792","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",163,"iad1",89,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJW3N84Q78E9GCFNY5N37",""
+"2025-06-30 07:42:19",1751269339089,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",-1,"v9lxf-1751269338872-63180c18d152","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJVRZ26KVNS1H2Z5RNMYN",""
+"2025-06-30 07:42:18",1751269338911,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",500,"v9lxf-1751269338872-63180c18d152","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",163,"iad1",89,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJVRZ26KVNS1H2Z5RNMYN",""
+"2025-06-30 07:42:18",1751269338560,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.ico","GET","",-1,"m9mm2-1751269338336-aea8b4734874","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJV8CRK62N8BKG87X0MF6",""
+"2025-06-30 07:42:18",1751269338457,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.ico","GET","",-1,"9ggz2-1751269338259-222f335adb78","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJV5VXR2H2R90H01V99DD",""
+"2025-06-30 07:42:18",1751269338450,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.ico","GET","",-1,"4gjs8-1751269338242-563ca2a5dc9b","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJV5449KC4DQFR12VVTX9",""
+"2025-06-30 07:42:18",1751269338410,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.ico","GET","",-1,"gtzrv-1751269338200-21587428a825","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJV3XBMHK4EBG8EJ2VSXV",""
+"2025-06-30 07:42:18",1751269338380,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.ico","GET","",500,"m9mm2-1751269338336-aea8b4734874","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",160,"iad1",88,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJV8CRK62N8BKG87X0MF6",""
+"2025-06-30 07:42:18",1751269338299,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.ico","GET","",500,"9ggz2-1751269338259-222f335adb78","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",144,"iad1",85,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJV5VXR2H2R90H01V99DD",""
+"2025-06-30 07:42:18",1751269338276,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.ico","GET","",500,"4gjs8-1751269338242-563ca2a5dc9b","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",160,"iad1",88,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJV5449KC4DQFR12VVTX9",""
+"2025-06-30 07:42:18",1751269338238,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",-1,"v9lxf-1751269338018-32deafb0bbc3","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJTY6ANDWB014DVD7B371",""
+"2025-06-30 07:42:18",1751269338237,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/favicon.ico","GET","",500,"gtzrv-1751269338200-21587428a825","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",160,"iad1",88,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJV3XBMHK4EBG8EJ2VSXV",""
+"2025-06-30 07:42:18",1751269338162,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",-1,"67knl-1751269337949-1dfb1841c1c9","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJTW08BQTQMEP7HPV8KWC",""
+"2025-06-30 07:42:18",1751269338139,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",-1,"fn8jj-1751269337922-671c6767f39f","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJTV7TVRRXBDVJK1HYF6V",""
+"2025-06-30 07:42:18",1751269338124,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",-1,"j5fwh-1751269337904-e7046edd99d1","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJTTT0SR46BQ96R1Y573Z",""
+"2025-06-30 07:42:18",1751269338054,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",500,"v9lxf-1751269338018-32deafb0bbc3","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",164,"iad1",89,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJTY6ANDWB014DVD7B371",""
+"2025-06-30 07:42:17",1751269337984,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",500,"67knl-1751269337949-1dfb1841c1c9","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",161,"iad1",88,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJTW08BQTQMEP7HPV8KWC",""
+"2025-06-30 07:42:17",1751269337959,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",500,"fn8jj-1751269337922-671c6767f39f","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",163,"iad1",88,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJTV7TVRRXBDVJK1HYF6V",""
+"2025-06-30 07:42:17",1751269337946,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",500,"j5fwh-1751269337904-e7046edd99d1","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",159,"iad1",88,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJTTT0SR46BQ96R1Y573Z",""
+"2025-06-30 07:42:17",1751269337902,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",-1,"28ntg-1751269337464-2770b6e7396d","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJTFWB4D2EW72EFVXDCPF",""
+"2025-06-30 07:42:17",1751269337787,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",-1,"gvl7j-1751269336941-cbd355f660a9","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJT33KKSN1GBPPQG6GS6J",""
+"2025-06-30 07:42:17",1751269337779,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",-1,"vvzh9-1751269337447-48ac9c4817e3","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJTG48NS6VCQRJ7B56C7E",""
+"2025-06-30 07:42:17",1751269337741,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",-1,"b5m74-1751269336985-05d63aff1ea0","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJT32MWFY5ABKVQFD1H9P",""
+"2025-06-30 07:42:17",1751269337732,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",-1,"bfwmv-1751269336933-59348365bebc","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJT313RDT8YBJEADJ6XMZ",""
+"2025-06-30 07:42:17",1751269337603,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",500,"vvzh9-1751269337447-48ac9c4817e3","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",163,"iad1",89,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJTG48NS6VCQRJ7B56C7E",""
+"2025-06-30 07:42:17",1751269337596,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",500,"28ntg-1751269337464-2770b6e7396d","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",154,"iad1",89,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJTFWB4D2EW72EFVXDCPF",""
+"2025-06-30 07:42:17",1751269337363,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",-1,"mq7jc-1751269337058-d316c49b3b8b","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",-1,"iad1",-1,-1,"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'dotenv' imported from /var/task/server/index.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:774:81)
+    at moduleResolve (node:internal/modules/esm/resolve:860:18)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1033:79)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJT32MWFY5ABKVMJJNRE0",""
+"2025-06-30 07:42:17",1751269337187,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",500,"gvl7j-1751269336941-cbd355f660a9","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",193,"iad1",88,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJT33KKSN1GBPPQG6GS6J",""
+"2025-06-30 07:42:17",1751269337186,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",500,"mq7jc-1751269337058-d316c49b3b8b","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",160,"iad1",88,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJT32MWFY5ABKVMJJNRE0",""
+"2025-06-30 07:42:17",1751269337186,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",500,"b5m74-1751269336985-05d63aff1ea0","vercel-favicon/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",164,"iad1",89,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJT32MWFY5ABKVQFD1H9P",""
+"2025-06-30 07:42:17",1751269337185,"mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app/","GET","",500,"bfwmv-1751269336933-59348365bebc","vercel-screenshot/1.0","error","production","main","MISS","lambda","/server/index.js","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","mern-project-reminisce-n0ozxj6ak-jenil-prajapatis-projects.vercel.app","dpl_FHvgRkCvU6rf9TBuzFfC1h9hgwKE",163,"iad1",89,2048,"","prj_vK7PLNuC1ClfPDhlAzjb7TWPopIJ","","","01JYZWJT313RDT8YBJEADJ6XMZ",""
