@@ -1,6 +1,11 @@
 import axios from 'axios'; //axios, to make api calls
 
-const API = axios.create({ baseURL: 'http://localhost:5001' });
+const API = axios.create({ 
+    baseURL: process.env.NODE_ENV === 'production'
+        ? 'https://mern-project-reminisce.vercel.app'
+        : 'http://localhost:5001',
+    withCredentials: true
+});
 
 export const fetchPosts = () => API.get('/posts');
 export const createPost = (newPost) => API.post('/posts', newPost);

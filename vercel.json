@@ -5,16 +5,31 @@
         {
             "src": "server/index.js",
             "use": "@vercel/node"
+        },
+        {
+            "src": "client/package.json",
+            "use": "@vercel/static-build",
+            "config": {
+                "distDir": "build"
+            }
         }
     ],
     "routes": [
         {
+            "src": "/posts",
+            "dest": "server/index.js"
+        },
+        {
+            "src": "/posts/(.*)",
+            "dest": "server/index.js"
+        },
+        {
             "src": "/(.*)",
-            "dest": "server/index.js",
-            "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
-            "headers": {
-                "Access-Control-Allow-Origin": "*"
-            }
+            "dest": "client/build/$1"
         }
-    ]
+    ],
+    "env": {
+        "MONGODB_URL": "@mongodb_url",
+        "PORT": "5001"
+    }
 } 
