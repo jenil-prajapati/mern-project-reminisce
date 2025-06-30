@@ -2,8 +2,8 @@ import axios from 'axios'; //axios, to make api calls
 
 const API = axios.create({ 
     baseURL: process.env.NODE_ENV === 'production'
-        ? 'https://mern-project-reminisce.vercel.app'
-        : 'http://localhost:5001',
+        ? 'https://mern-project-reminisce.vercel.app/api'
+        : 'http://localhost:5001/api',
     withCredentials: true
 });
 
