@@ -3,7 +3,7 @@
     "name": "reminisce-server",
     "builds": [
         {
-            "src": "server/api/**/*.js",
+            "src": "server/api/*.js",
             "use": "@vercel/node"
         },
         {
@@ -16,12 +16,8 @@
     ],
     "routes": [
         {
-            "src": "/api/test",
-            "dest": "server/api/test.js"
-        },
-        {
             "src": "/api/(.*)",
-            "dest": "server/api/index.js"
+            "dest": "/server/api/index.js"
         },
         {
             "src": "/(.*)",
