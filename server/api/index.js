@@ -1,62 +1,113 @@
-import express from 'express';
 import mongoose from 'mongoose';
-import cors from 'cors';
 import dotenv from 'dotenv';
-import postRoutes from '../routes/posts.js';
+import PostMessage from '../models/postMessage.js';
 
 dotenv.config();
 
-const app = express();
-
-app.use(express.json({ limit: '30mb', extended: true }));
-app.use(express.urlencoded({ limit: '30mb', extended: true }));
-app.use(cors({
-    origin: '*',
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-}));
-
-// Connect to MongoDB only once
-let cachedDb = null;
-
-async function connectToDatabase() {
-    if (cachedDb) {
-        return cachedDb;
-    }
-    
+// MongoDB connection
+let isConnected = false;
+const connectDB = async () => {
+    if (isConnected) return;
     try {
-        const db = await mongoose.connect(process.env.MONGODB_URL);
-        cachedDb = db;
-        return db;
+        await mongoose.connect(process.env.MONGODB_URL);
+        isConnected = true;
+        console.log('MongoDB connected');
     } catch (error) {
         console.error('MongoDB connection error:', error);
         throw error;
     }
-}
+};
 
-app.use('/api/posts', postRoutes);
-
-app.get('/api', (req, res) => {
-    res.status(200).json({ message: 'Hello to Reminisce API' });
-});
-
-// Error handling middleware
-app.use((err, req, res, next) => {
-    console.error(err.stack);
-    res.status(500).json({ message: 'Something went wrong!' });
-});
+// Helper to parse JWT token
+const getTokenFromHeader = (req) => {
+    try {
+        return req.headers.authorization?.split(" ")[1] || null;
+    } catch (error) {
+        return null;
+    }
+};
 
 export default async function handler(req, res) {
+    // Enable CORS
+    res.setHeader('Access-Control-Allow-Credentials', true);
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,PATCH,DELETE,POST,PUT');
+    res.setHeader(
+        'Access-Control-Allow-Headers',
+        'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, Authorization'
+    );
+
+    // Handle OPTIONS request
+    if (req.method === 'OPTIONS') {
+        res.status(200).end();
+        return;
+    }
+
     try {
-        // Connect to database
-        await connectToDatabase();
+        await connectDB();
+
+        // Extract the path from the URL
+        const path = req.url.split('/api')[1] || '/';
         
-        // Handle the request using express app
-        return app(req, res);
+        // Basic health check
+        if (path === '/health') {
+            return res.status(200).json({
+                status: 'ok',
+                message: 'Server is healthy',
+                mongodb: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected'
+            });
+        }
+
+        // Posts endpoints
+        if (path === '/posts') {
+            if (req.method === 'GET') {
+                const posts = await PostMessage.find();
+                return res.status(200).json(posts);
+            }
+            if (req.method === 'POST') {
+                const post = req.body;
+                const newPost = new PostMessage(post);
+                await newPost.save();
+                return res.status(201).json(newPost);
+            }
+        }
+
+        // Single post endpoints
+        if (path.match(/^\/posts\/[^/]+$/)) {
+            const id = path.split('/')[2];
+            
+            if (req.method === 'PATCH') {
+                const { id } = req.params;
+                const post = req.body;
+                const updatedPost = await PostMessage.findByIdAndUpdate(id, post, { new: true });
+                return res.status(200).json(updatedPost);
+            }
+            
+            if (req.method === 'DELETE') {
+                await PostMessage.findByIdAndRemove(id);
+                return res.status(200).json({ message: 'Post deleted successfully' });
+            }
+        }
+
+        // Like post endpoint
+        if (path.match(/^\/posts\/[^/]+\/like$/)) {
+            const id = path.split('/')[2];
+            const updatedPost = await PostMessage.findByIdAndUpdate(
+                id,
+                { $inc: { likeCount: 1 } },
+                { new: true }
+            );
+            return res.status(200).json(updatedPost);
+        }
+
+        // If no route matches
+        return res.status(404).json({ message: 'Not found' });
+
     } catch (error) {
-        console.error('Handler error:', error);
-        return res.status(500).json({ 
-            error: 'Internal Server Error',
-            message: error.message 
+        console.error('Server error:', error);
+        return res.status(500).json({
+            message: 'Internal server error',
+            error: process.env.NODE_ENV === 'development' ? error.message : undefined
         });
     }
 } 
