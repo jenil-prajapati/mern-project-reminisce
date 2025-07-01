@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import postRoutes from './routes/posts.js';
+import userRoutes from './routes/users.js';
 
 // Load environment variables
 dotenv.config();
@@ -51,7 +52,9 @@ app.get('/api/health', async (req, res) => {
     }
 });
 
+// Routes
 app.use('/api/posts', postRoutes);
+app.use('/api/user', userRoutes);
 
 app.get('/api', (req, res) => {
     res.send('Hello to Reminisce API');

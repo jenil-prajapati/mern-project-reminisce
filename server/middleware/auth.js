@@ -1,4 +1,7 @@
 import jwt from 'jsonwebtoken';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const auth = async (req, res, next) => {
   try {
@@ -6,13 +9,16 @@ const auth = async (req, res, next) => {
     
     if (!token) return res.status(401).json({ message: "Authentication required" });
 
-    const decodedData = jwt.verify(token, process.env.JWT_SECRET);
-    req.userId = decodedData?.id;
-
-    next();
+    try {
+      const decodedData = jwt.verify(token, process.env.JWT_SECRET);
+      req.userId = decodedData?.id;
+      next();
+    } catch (error) {
+      return res.status(401).json({ message: "Invalid or expired token" });
+    }
   } catch (error) {
     console.error('Auth middleware error:', error);
-    res.status(401).json({ message: "Invalid or expired token" });
+    res.status(500).json({ message: "Something went wrong" });
   }
 };
 
