@@ -24,8 +24,13 @@ let isConnected = false;
 const connectDB = async () => {
     if (isConnected) return;
 
+    const mongoUrl = process.env.MONGODB_URL || process.env.CONNECTION_URL;
+    if (!mongoUrl) {
+        throw new Error('MongoDB connection URL not found. Set MONGODB_URL or CONNECTION_URL env var.');
+    }
+
     try {
-        await mongoose.connect(process.env.MONGODB_URL);
+        await mongoose.connect(mongoUrl);
         isConnected = true;
         console.log('MongoDB connected');
     } catch (error) {
@@ -66,8 +71,8 @@ app.use((err, req, res, next) => {
     res.status(500).json({ message: 'Something went wrong!', error: err.message });
 });
 
-// For local development
-if (process.env.NODE_ENV !== 'production') {
+// For local development only (VERCEL env var is auto-set on Vercel)
+if (!process.env.VERCEL) {
     const PORT = process.env.PORT || 5001;
     app.listen(PORT, () => console.log(`Server running on port: ${PORT}`));
 }

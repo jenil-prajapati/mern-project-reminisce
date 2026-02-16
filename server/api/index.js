@@ -1,4 +1,14 @@
-// Re-export the serverless handler from the main server entry point.
-// This ensures all routes (posts, users, health) and middleware
-// (body parsing, CORS, error handling) are available on Vercel.
-export { default } from '../index.js';
+import handler from '../index.js';
+
+export default async function vercelHandler(req, res) {
+    try {
+        return await handler(req, res);
+    } catch (error) {
+        console.error('Vercel handler error:', error);
+        return res.status(500).json({
+            message: 'Server error',
+            error: error.message,
+            stack: error.stack
+        });
+    }
+}
