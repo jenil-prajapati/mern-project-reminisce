@@ -2,9 +2,6 @@ import express from 'express';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import User from '../models/user.js';
-import dotenv from 'dotenv';
-
-dotenv.config();
 const router = express.Router();
 
 router.post('/signin', async (req, res) => {

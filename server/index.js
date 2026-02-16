@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 import postRoutes from './routes/posts.js';
 import userRoutes from './routes/users.js';
 
-// Load environment variables
+// Load .env for local development (no .env file, uses dashboard env vars)
 dotenv.config();
 
 // Create Express app

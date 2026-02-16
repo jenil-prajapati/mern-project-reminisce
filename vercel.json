@@ -20,11 +20,5 @@
             "src": "/(.*)",
             "dest": "client/build/index.html"
         }
-    ],
-    "env": {
-        "MONGODB_URL": "@mongodb_url",
-        "NODE_ENV": "production",
-        "JWT_SECRET": "@jwt_secret",
-        "JWT_EXPIRES_IN": "7d"
-    }
-} 
+    ]
+}
