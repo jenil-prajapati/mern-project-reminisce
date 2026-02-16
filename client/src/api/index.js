@@ -24,3 +24,4 @@ export const likePost = (id) => API.patch(`/posts/${id}/like`);
 // Auth endpoints
 export const signIn = (formData) => API.post('/user/signin', formData);
 export const signUp = (formData) => API.post('/user/signup', formData);
+export const googleSignIn = (credential) => API.post('/user/google', { credential });
