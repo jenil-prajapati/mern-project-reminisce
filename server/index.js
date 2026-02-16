@@ -65,8 +65,10 @@ app.use((err, req, res, next) => {
 });
 
 if (!process.env.VERCEL) {
-    const PORT = process.env.PORT || 5001;
-    app.listen(PORT, () => console.log(`Server running on port: ${PORT}`));
+    connectDB().then(() => {
+        const PORT = process.env.PORT || 5001;
+        app.listen(PORT, () => console.log(`Server running on port: ${PORT}`));
+    });
 }
 
 export default async function handler(req, res) {
