@@ -10,8 +10,8 @@ Setup:
 - run ```npm i && npm start``` for both client and server side to start the app
 
 ## To Do
-* Add web app link
-* Rename post message 
+* Add Google OAuth
+* Make it User-specific with IDs 
 * Refactor reducers
 * Add some more cool memories
 * Maybe clickable tags
